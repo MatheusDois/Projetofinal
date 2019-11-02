@@ -83,18 +83,19 @@ input::placeholder{
         <ul class="hidden">
           <li><a href="./mudarsenhaperfil.php">Alterar senha</a></li>
           <li><a href="./alterardados.php">Alterar Dados</a></li>
+          <li><a href="./perfil.php">Perfil</a></li>
           
         </ul>
       </li>
       <li>
         <i class="fa fa-circle fa-2x"></i>
-        Dolor Sit
+        Vídeo Aulas
         <ul class="hidden">
-          <li>Dark</li>
-          <li>Wings</li>
-          <li>Dark</li>
-          <li>Words</li>
-          <li>John SNUUW</li>
+          <li>Musculação</li>
+          <li>Crossfit</li>
+          <li>Pilates</li>
+          <li>Jump</li>
+          <li>Spinning</li>
         </ul>
       </li>
       <li>
@@ -112,37 +113,53 @@ input::placeholder{
 <div id="content" class="text-center">
     <div class="back"></div>
     <div class="profile-photo">
+  
         <img src="./imagens/avatar-2.png" alt="">
+    
     </div>
+
+
+  
 
     <form action="bancodedados/update.php" method="post">
         <div class="row container-fluid ml-2">
             <div class="col-6 text-left">
                 <div class="box mt-4">
                     Nome:
-                    <input type="text" name="nome" class="w-100" placeholder="Nome"value="<?= $nome?>">
+                    <input type="text" name="nome" size="20" class="w-100" placeholder="Nome"value="<?= $nome?>"> 
                     Telefone
                     <input type="text" name="telefone" class="w-100 mt-2 mb-2" placeholder="Telefone" value="<?= $telefone?>">
                     Endereço:
                     <input type="text" name="endereco" class="w-100" placeholder="Logradouro" value="<?= $ENDERECO?>">
+
+                    
                 </div>
+                <p><p><p><input type="submit" style="width: 80px; height: 50px" value="Enviar" class="btn-sm btn-success ml-3">
+                            <input type="reset" style="width: 80px; height: 50px" value="Limpar" class="btn-sm btn-secondary" >
             </div>
             <div class="col" style="margin-top: -100px;">
                 <div class="row box">
                     <div class="col text-left">
                         Plano:<p><input type="text" value="<?=$plano?>" disabled class="rounded" style="border: none;">
                         <div class="text-left mt-1">
-                            <input type="submit" value="Enviar" class="btn-sm btn-success ml-3">
-                            <input type="reset" value="Apagar dados" class="btn-sm btn-secondary">
+                            
                         </div>
                     </div>
                     <div class="col">
                     <div class="text-left">
                             Personal:<P><input type="text" value="<?=$personal?>" disabled class="rounded" style="border: none;">
+
+                           
                         </div>
+                        
                     </div>
+                    
                 </div>
+               
             </div>
+         
         </div>
+        
     </form>
+    
 </div>

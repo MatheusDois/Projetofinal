@@ -111,20 +111,21 @@ else{
         <i class="fa fa-circle fa-2x"></i>
         Perfil
         <ul class="hidden">
-          <li><a href="./perfil.php">Alterar senha</a></li>
-          <li>Alterar Dados</li>
+          <li><a href="./mudarsenhaperfil.php">Alterar senha</a></li>
+          <li><a href="./alterardados.php">Alterar Dados</a></li>
+          <li><a href="./perfil.php">Perfil</a></li>
           
         </ul>
       </li>
       <li>
         <i class="fa fa-circle fa-2x"></i>
-        Dolor Sit
+        Vídeo Aulas
         <ul class="hidden">
-          <li>Dark</li>
-          <li>Wings</li>
-          <li>Dark</li>
-          <li>Words</li>
-          <li>John SNUUW</li>
+          <li>Musculação</li>
+          <li>Crossfit</li>
+          <li>Pilates</li>
+          <li>Jump</li>
+          <li>Spinning</li>
         </ul>
       </li>
       <li>

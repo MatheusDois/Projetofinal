@@ -1,0 +1,10 @@
+Dei uma mexida no portal, achei algumas coisas aqui;
+
+
+Alterado:
+Criei um ul para voltar para a página perfil.php no menu de navegação.
+Coloquei uns &nbsp para centralizar a mensagem de boas vindas.
+Coloquei umas fotos de exemplo.
+
+Corrigir:
+Na página alterardados.php, ao clicar em enviar o usuário tá sendo direcionado para a página principal.

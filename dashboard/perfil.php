@@ -33,18 +33,19 @@ else{
         <ul class="hidden">
           <li><a href="./mudarsenhaperfil.php">Alterar senha</a></li>
           <li><a href="./alterardados.php">Alterar Dados</a></li>
+          <li><a href="./perfil.php">Perfil</a></li>
           
         </ul>
       </li>
       <li>
         <i class="fa fa-circle fa-2x"></i>
-        Dolor Sit
+        Vídeo Aulas
         <ul class="hidden">
-          <li>Dark</li>
-          <li>Wings</li>
-          <li>Dark</li>
-          <li>Words</li>
-          <li>John SNUUW</li>
+          <li>Musculação</li>
+          <li>Crossfit</li>
+          <li>Pilates</li>
+          <li>Jump</li>
+          <li>Spinning</li>
         </ul>
       </li>
       <li>
@@ -61,9 +62,9 @@ else{
 <div class="divider"></div>
 <div id="content" class="text-center">
 
-  <h1 class="mt-5">Bem vindos a area do cliente <?= $nome ?>!</h1>
+  <h1 class="mt-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Área interna do cliente, seja bem vindo <?= $nome ?>!</h1> 
   <p>
-  <h3>Confira nossas promoções!</h3>
+ <center> <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confira nossas promoções!</h3>
 
   <div class="carousel-box mt-4">
   <div class="bd-example">
@@ -75,24 +76,21 @@ else{
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="http://2.bp.blogspot.com/_wE8sT2XKYow/SW71_spTMUI/AAAAAAAAAlE/PGA31_6U0mE/s400/peixe-galo+1.jpg" class="d-block w-100" alt="...">
+          <img src="./imagens/foto01.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="./imagens/foto02.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          
           </div>
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="./imagens/foto03.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          
           </div>
         </div>
       </div>
@@ -109,7 +107,7 @@ else{
   </div>
 
 </div>
-
+</center>
 <?php 
 include_once 'includes/footer.inc.php';
 
