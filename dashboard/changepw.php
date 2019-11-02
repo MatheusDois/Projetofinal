@@ -56,6 +56,7 @@ if(isset($_POST))
 
 
 	echo"<script>alert('Senha alterada com sucesso!')</script>";
+	header('Location: perfil.php');
 }
 else {
 	echo"<script>alert('Ocurreu algum erro!')</script>";}
