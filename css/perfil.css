@@ -74,6 +74,7 @@ html, body {
 .divider{
     width: 280px;
     height: 100%;
+    display: flex;
 }
 
 

@@ -62,9 +62,9 @@ else{
 <div class="divider"></div>
 <div id="content" class="text-center">
 
-  <h1 class="mt-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Área interna do cliente, seja bem vindo <?= $nome ?>!</h1> 
+  <h1 class="mt-5">Área interna do cliente, seja bem vindo <?= $nome ?>!</h1> 
   <p>
- <center> <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confira nossas promoções!</h3>
+ <center> <h3>Confira nossas promoções!</h3>
 
   <div class="carousel-box mt-4">
   <div class="bd-example">
