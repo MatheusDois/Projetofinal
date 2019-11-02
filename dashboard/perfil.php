@@ -34,6 +34,7 @@ else{
           <li><a href="./mudarsenhaperfil.php">Alterar senha</a></li>
           <li><a href="./alterardados.php">Alterar Dados</a></li>
           <li><a href="./perfil.php">Perfil</a></li>
+          <li><a href="./logout.php">Sair</a></li>
           
         </ul>
       </li>
@@ -41,11 +42,12 @@ else{
         <i class="fa fa-circle fa-2x"></i>
         Vídeo Aulas
         <ul class="hidden">
-          <li>Musculação</li>
-          <li>Crossfit</li>
-          <li>Pilates</li>
-          <li>Jump</li>
-          <li>Spinning</li>
+          <li><a href="./musculacao.php">Musculação</a></li>
+          <li><a href="./crossfit.php">Crossfit</a></li>
+          <li><a href="./pilates.php">Pilates</a></li>
+          <li><a href="./jump.php">Jump</a></li>
+          <li><a href="./spinning.php">Spinning</a></li>
+          
         </ul>
       </li>
       <li>
@@ -59,12 +61,13 @@ else{
       </li>
     </ul>
 </nav>
+
 <div class="divider"></div>
 <div id="content" class="text-center">
 
-  <h1 class="mt-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Área interna do cliente, seja bem vindo <?= $nome ?>!</h1> 
+  <h1 class="mt-5">Área interna do cliente, seja bem vindo <?= $nome ?>!</h1> 
   <p>
- <center> <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confira nossas promoções!</h3>
+ <center> <h3>Confira nossas promoções!</h3>
 
   <div class="carousel-box mt-4">
   <div class="bd-example">
