@@ -55,18 +55,70 @@ input::placeholder{
     color:
 }
 
-.box{
-    border-radius: 10px;
-    padding: 30px;
-    border: .5px solid #000;
-    box-shadow: 1px 1px 3px #000;
-    position: relative;
-    top: 0;
+
+
+
+
+
+ /* maluco */
+
+ * {
+	box-sizing: border-box;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
 }
 
-.box:nth-child(2){
-    padding: 10px;
+
+
+ form {
+  background: #fff;
+  box-shadow: 0 0 2em .2em rgba(0,0,0,0.5);
+  margin: 80px 70em 0 auto;
+  padding: 1em;
+  width: 50em;
 }
+
+
+
+label {
+  display: block;
+  margin-bottom: .5em;
+  font-family:Arial, sans-serif;
+    font-size:17px;
+    color:#000;
+    font-weight:bold;
+  
+}
+
+
+
+
+ p {
+  flex: 12.5em;
+  margin: .5em;
+}
+ 
+ fieldset {
+  border: 0;
+
+  flex-wrap: wrap;
+}
+
+input {
+  padding: .5em;
+  width: 40%;
+}
+
+input [nome] {
+  padding: .5em;
+  width: 40%;
+}
+
+
+    
+
+
 
 </style>
 
@@ -122,43 +174,27 @@ input::placeholder{
   
 
     <form action="bancodedados/update.php" method="post">
-        <div class="row container-fluid ml-2">
-            <div class="col-6 text-left">
-                <div class="box mt-4">
-                    Nome:
-                    <input type="text" name="nome" size="20" class="w-100" placeholder="Nome"value="<?= $nome?>"> 
-                    Telefone
-                    <input type="text" name="telefone" class="w-100 mt-2 mb-2" placeholder="Telefone" value="<?= $telefone?>">
-                    Endereço:
-                    <input type="text" name="endereco" class="w-100" placeholder="Logradouro" value="<?= $ENDERECO?>">
-
+    <p>
+    <fieldset>
+  <label for="nome">  Aluno: </label> <input type="text" name="nome" id="nome" size="20" placeholder="Nome"value="<?= $nome?>"> 
+                    <label for="telefone>">Telefone</label>
+                    <input type="text" name="telefone"  placeholder="Telefone" value="<?= $telefone?>">
+                  
+</fieldset>
                     
-                </div>
+                
                 <p><p><p><input type="submit" style="width: 80px; height: 50px" value="Enviar" class="btn-sm btn-success ml-3">
                             <input type="reset" style="width: 80px; height: 50px" value="Limpar" class="btn-sm btn-secondary" >
-            </div>
-            <div class="col" style="margin-top: -100px;">
-                <div class="row box">
-                    <div class="col text-left">
+           
+           
+           
+            <fieldset>
                         Plano:<p><input type="text" value="<?=$plano?>" disabled class="rounded" style="border: none;">
-                        <div class="text-left mt-1">
-                            
-                        </div>
-                    </div>
-                    <div class="col">
-                    <div class="text-left">
+                      
                             Personal:<P><input type="text" value="<?=$personal?>" disabled class="rounded" style="border: none;">
 
-                           
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-               
-            </div>
-         
-        </div>
+                        </fieldset>   
+                      
         
     </form>
     
