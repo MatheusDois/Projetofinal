@@ -78,7 +78,7 @@ body {
 html, body {
   width: 100%;
   height: 100%;
-  background-image: url(https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://img4.goodfon.com/wallpaper/nbig/a/7c/crossfit-wheel-female-tattoos.jpg);
     
 
   background-repeat: no-repeat;
@@ -106,8 +106,7 @@ html, body {
   border: none;
   border-bottom: 1px solid rgba(0,0,0,0.7);
   background: transparent;
-  font-weight: 900;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .formulario{
@@ -195,14 +194,17 @@ else{
         <fieldset class="formulario text-center">
           
           
-          <img src="imagens/avatar-2.png" alt="(imagem)" width="100" style="margin-left: -90px; ">Alterar senha<p>
-          <div style="margin-top: 30px;"></div>
+          <center><img src="imagens/senha.jpg" alt="(imagem)" width="100" ></center>
+          <p>
+          <h3>Alterar senha</h3>
+          <div style="margin-top: -10px;"></div>
           <!-- campo nome -->
-            <span >Insira a senha que deseja:</span> <br>
-            <input type="password" name="password"  id="nome" maxlength="40" class="w-100 mt-3" placeholder="Senha pretendida" required><p>
+           <b> Insira a senha que deseja: </b><br>
+           <input type="password" name="password"  id="nome" maxlength="40" class="w-100 mt-1" placeholder="Senha pretendida" required>
+          <p>
 
 
-            <input type="submit" value="Alterar" class="btn btn-success mt-3">
+            <input type="submit" value="Alterar" class="btn btn-success mt-3 mr-5">
             <a href="perfil.php" class="btn btn-secondary mt-3">Cancelar</a>
           </fieldset>
       </form>

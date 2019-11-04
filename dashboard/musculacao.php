@@ -12,6 +12,9 @@
     text-align: center;
     
  }
+
+ 
+
 </style>
 
 <?php
@@ -37,9 +40,13 @@ else{
 		$ENDERECO = $registros ['ENDERECO'];
 	endwhile;?>
 
+
 <nav class="sidenav">
+
     <ul class="main-buttons">
+   
       <li>
+     
         <i class="fa fa-circle fa-2x"></i>
         Perfil
         <ul class="hidden">
@@ -71,14 +78,15 @@ else{
           <li>Dolor</li>
         </ul>
       </li>
+      
     </ul>
+    
 </nav>
 
-
 <br>
 <br>
 <br>
-
+ 
 <center><h1>Vídeo Aulas sobre: Musculação!</h1></center>
 <center><h3>Não conseguiu ir para a academia por algum motivo? Não tenha desculpas para não malhar!<h3></center>
  <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/E2dnI48VbHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 

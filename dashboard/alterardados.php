@@ -34,7 +34,7 @@ else{
     width: 100%;
     height: 200px;
     display: block;
-    background-image: url(https://cdn.discordapp.com/attachments/482744051913850947/639956487032143913/PricingPagePhotos28229.png);
+    background-image: url(http://selfgrowth.info/photos/best-fitness-pictures-online/best-fitness-pictures-online6556.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
