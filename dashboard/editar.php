@@ -20,8 +20,8 @@
 		$nome = $registros ['nome'];
 		$email = $registros ['email'];
 		$telefone = $registros ['telefone'];
-		$CPF = $registros ['CPF'];
-		$RG = $registros ['RG'];
+		$plano = $registros ['plano'];
+		$personal = $registros ['personal'];
 		$ENDERECO = $registros ['ENDERECO'];
 endwhile;
 ?>
@@ -127,15 +127,15 @@ function formatar(mascara, documento){
 					
 					<!-- cpf -->
 			<div class="input-field col s12">
-					<i class="material-icons prefix">credit_card</i>
-					<input type="text" name="CPF" id="CPF" value="<?php echo $CPF?>" maxlength="14" onkeydown="javascript: fMasc( this, mCPF );" required  placeholder="CPF do Cliente">
+					<i class="material-icons prefix">fitness_center</i>
+					<input type="text" name="plano" id="plano" value="<?php echo $plano?>" maxlength="20" required  placeholder="Plano do Cliente">
 				
 				</div>
 
 				<!-- rg -->
 			<div class="input-field col s12">
-					<i class="material-icons prefix">contact_mail</i>
-					<input type="text" name="RG" id="RG" value="<?php echo $RG?>" OnKeyPress="formatar('###.###.###-##', this)" maxlength="13" required placeholder="RG do Cliente">
+					<i class="material-icons prefix">directions_run</i>
+					<input type="text" name="personal" id="personal" value="<?php echo $personal?>"  maxlength="20"  placeholder="Personal do Cliente">
 				
 				</div>
 
