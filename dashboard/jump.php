@@ -10,8 +10,13 @@
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    
+
  }
+
+ .container-main{
+   margin-left: 20%;
+ }
+
 </style>
 
 <?php
@@ -62,15 +67,7 @@ else{
           
         </ul>
       </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-         Consectetur
-         <ul class="hidden">
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-        </ul>
-      </li>
+     
     </ul>
 </nav>
 
@@ -78,9 +75,10 @@ else{
 <br>
 <br>
 <br>
-
+<div class="container-main">
 <center><h1>Dicas sobre:Jump!</h1></center>
 <center><h3>Vantagens e como fazer em casa!<h3></center>
+
  <center> 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/jORr86VYMfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
  &nbsp;
@@ -98,6 +96,7 @@ else{
   <iframe width="560" height="315" src="https://www.youtube.com/embed/oUZOU9BhwHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   
    </center>
+   </div>
  
 
 <?php 

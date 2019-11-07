@@ -12,6 +12,11 @@
     text-align: center;
     
  }
+
+ .container-main{
+   margin-left: 20%;
+ }
+
 </style>
 
 <?php
@@ -62,15 +67,7 @@ else{
           
         </ul>
       </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-         Consectetur
-         <ul class="hidden">
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-        </ul>
-      </li>
+     
     </ul>
 </nav>
 
@@ -78,7 +75,7 @@ else{
 <br>
 <br>
 <br>
-
+<div class="container-main">
 <center><h1>Dicas cruciais para: Crossfit!</h1></center>
 <center><h3>Quer melhorar a eficiência com exercícios básicos? Confira! <h3></center>
  <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/5Dut3q8lGUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
@@ -87,7 +84,7 @@ else{
     <center><h3>Dicas dadas por um campeão de Crossfit, além de dicas de alimentação!<h3></center>
  <center> <<iframe width="560" height="315" src="https://www.youtube.com/embed/pLYZCaFjIrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
  &nbsp; <iframe width="560" height="315" src="https://www.youtube.com/embed/6ym68AwBfXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
- 
+ </div>
 
 <?php 
 include_once 'includes/footer.inc.php';

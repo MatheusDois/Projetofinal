@@ -159,13 +159,13 @@ label{
                         <div class="col  mt-3">
                             <label>
                                 Plano: 
-                                <input type="text" value="<?=$plano?>" readonly="truew"  class="w-100 rounded mt-2" style="border: none;">
+                                <input type="text" value="<?=$plano?>" readonly="true"  class="w-100 rounded mt-2" style="border: none;">
                             </label>
                         </div>
                         <div class="col  mt-3">
                             <label>
                                 Personal: 
-                                <input type="text" value="<?=$personal?>" readonly="truew"  class="w-100 rounded mt-2" style="border: none;">
+                                <input type="text" value="<?=$personal?>" readonly="true"  class="w-100 rounded mt-2" style="border: none;">
                             </label>                            
                         </div>
                     </div>

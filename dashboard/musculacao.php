@@ -13,7 +13,9 @@
     
  }
 
- 
+ .container-main{
+   margin-left: 20%;
+ }
 
 </style>
 
@@ -69,15 +71,7 @@ else{
           
         </ul>
       </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-         Consectetur
-         <ul class="hidden">
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-        </ul>
-      </li>
+      
       
     </ul>
     
@@ -86,16 +80,16 @@ else{
 <br>
 <br>
 <br>
- 
+ <div class="container-main">
 <center><h1>Vídeo Aulas sobre: Musculação!</h1></center>
 <center><h3>Não conseguiu ir para a academia por algum motivo? Não tenha desculpas para não malhar!<h3></center>
  <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/E2dnI48VbHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- &nbsp; <iframe width="560" height="315" src="https://www.youtube.com/embed/Qkdg6GFsxx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qkdg6GFsxx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
     <center><h3>Dicas essenciais para o treino de passada, confira!<h3></center>
  <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/GuhUjVehnWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- &nbsp; <iframe width="560" height="315" src="https://www.youtube.com/embed/2Q-JhMBz4wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
- 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2Q-JhMBz4wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+ </div>
 
 <?php 
 include_once 'includes/footer.inc.php';

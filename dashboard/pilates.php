@@ -12,6 +12,10 @@
     text-align: center;
     
  }
+
+ .container-main{
+   margin-left: 20%;
+ }
 </style>
 
 <?php
@@ -62,15 +66,7 @@ else{
           
         </ul>
       </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-         Consectetur
-         <ul class="hidden">
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-        </ul>
-      </li>
+      
     </ul>
 </nav>
 
@@ -79,8 +75,10 @@ else{
 <br>
 <br>
 
+<div class="container-main">
 <center><h1>Dicas sobre:Pilates!</h1></center>
 <center><h3>Emagrecimento e melhora de postura!<h3></center>
+
  <center> 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/aAWYyU8povw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
  
@@ -99,6 +97,8 @@ else{
   <iframe width="560" height="315" src="https://www.youtube.com/embed/kpCU5S65c6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
    </center>
+
+   </div>
  
 
 <?php 

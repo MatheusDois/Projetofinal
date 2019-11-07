@@ -12,6 +12,11 @@
     text-align: center;
     
  }
+
+ .container-main{
+   margin-left: 20%;
+ }
+
 </style>
 
 <?php
@@ -62,15 +67,7 @@ else{
           
         </ul>
       </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-         Consectetur
-         <ul class="hidden">
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-        </ul>
-      </li>
+     
     </ul>
 </nav>
 
@@ -79,8 +76,10 @@ else{
 <br>
 <br>
 
+<div class="container-main">
 <center><h1>Dicas sobre:Spinning!</h1></center>
 <center><h3>Emagrecimento e posicionamento correto!<h3></center>
+
  <center> 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/uhqGxNbWTkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
@@ -98,6 +97,7 @@ else{
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/4JWh1hXlzyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
    </center>
+   </div>
  
 
 <?php 
