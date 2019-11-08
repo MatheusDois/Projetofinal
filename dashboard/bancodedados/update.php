@@ -16,7 +16,7 @@ $plano = filter_input(INPUT_POST, 'plano', FILTER_SANITIZE_SPECIAL_CHARS);
 $personal = filter_input(INPUT_POST, 'personal', FILTER_SANITIZE_SPECIAL_CHARS);
 $ENDERECO = filter_input(INPUT_POST, 'ENDERECO', FILTER_SANITIZE_SPECIAL_CHARS);
 if($nome=="" or $email==""){
-	$queryUpdate = $link->query("update tb_clientes set telefone='$telefone', CPF='$CPF', RG='$RG', ENDERECO='$ENDERECO' where id='$id'");
+	$queryUpdate = $link->query("update tb_clientes set telefone='$telefone', plano='$plano', personal='$personal', ENDERECO='$ENDERECO' where id='$id'");
 
 }
 

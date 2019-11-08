@@ -7,7 +7,6 @@ $nome     = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
 $email    = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 $telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_NUMBER_INT);
 $plano     = filter_input(INPUT_POST, 'plano', FILTER_SANITIZE_SPECIAL_CHARS);
-
 $personal     = filter_input(INPUT_POST, 'personal', FILTER_SANITIZE_SPECIAL_CHARS);
 $ENDERECO     = filter_input(INPUT_POST, 'ENDERECO', FILTER_SANITIZE_SPECIAL_CHARS);
 $password=$_POST['password'];

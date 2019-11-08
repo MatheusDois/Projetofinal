@@ -50,15 +50,7 @@ else{
           
         </ul>
       </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-         Consectetur
-         <ul class="hidden">
-          <li>Lorem</li>
-          <li>Ipsum</li>
-          <li>Dolor</li>
-        </ul>
-      </li>
+      
     </ul>
 </nav>
 
