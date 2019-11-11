@@ -50,7 +50,24 @@ else{
           
         </ul>
       </li>
-      
+      <li>
+        <i class="fa fa-circle fa-2x"></i>
+        Cálculo IMC
+        <ul class="hidden">
+          <li><a href="./imc.php">Musculação</a></li>
+        
+          
+        </ul>
+      </li>
+
+      <li>
+        <i class="fa fa-circle fa-2x"></i>
+        LOCALIZAÇÃO
+        <ul class="hidden">
+          <li><a href="./mapa.php">Acessar mapa</a></li>
+     
+        </ul>
+      </li>
     </ul>
 </nav>
 

@@ -40,7 +40,6 @@ if(isset($_POST['login']))
 
 <html lang="en" class="no-js">
 
-
 <head>
 	
 	<meta charset="UTF-8">
@@ -92,6 +91,7 @@ alt=”sometext” width="120" height="100" class="logo"></a>
 			</div>
 		</div>
 	</div>
+
 
 	<!-- Loading Scripts -->
 	<script src="js/jquery.min.js"></script>
