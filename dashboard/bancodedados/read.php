@@ -14,14 +14,19 @@ while($registros = $querySelect->fetch_assoc()):
 
 	echo "<tr>";
 	echo "<td>$nome</td>
-	<td>$email</td>
-	<td>$telefone</td>
-	<td>$plano</td> 
-	<td>$personal</td>
-	<td>$ENDERECO</td>
+		<td>$email</td>
+		<td>$telefone</td>
+		<td>$plano</td> 
+		<td>$personal</td>
+		<td>$ENDERECO</td>
 	<td><a href='editar.php?id=$id'>
 	<i class='material-icons'>edit</i></a></td>
-	 <td><a href='bancodedados/del.php?id=$id'><i class='material-icons'>delete</td>";
+	 <td>
+	 <a onclick=\"myFunction($id)\" style=\"cursor: pointer;\"><i class='material-icons'>delete</i></a>
+	 </td>";
 	echo "</tr>";
 
 endwhile; 
+?>
+
+

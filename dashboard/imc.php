@@ -4,7 +4,17 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="./../css/perfil.css">
 
+<style>
+.container-new{
+  margin: 5% 10% 0 30%;
+  position: absolute;
+  top:0;
+}
 
+body{
+  background: #eeeeee;
+}
+</style>
 <?php
 session_start();
 error_reporting(1);
@@ -75,7 +85,21 @@ else{
 
 
 
+<div class="container-new">
 
+  <div class="yz-widget" data-calculator-type="bmi" data-language="pt" data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4" data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF" data-secondary-color="#FFC107"><span class="yz-copyright">Powered by <a href="https://www.yazio.com/pt/calculadora-imc">YAZIO</a></span></div>
+  <script src="https://widget.yazio.com/calculator.js"></script>
+
+</div>
+<div class="calculator-line-graph-wrapper">
+<span class="icon icon-yz_20-002-left-open calculator-line-graph-scroll-left-button hidden-lg" id="calculator-line-graph-scroll-left-button"></span>
+<div class="calculator-line-graph" id="calculator-line-graph">
+<div class="calculator-line-graph-section underweight">
+<span class="calculator-line-graph-section-title">Abaixo do peso</span>
+<span class="calculator-line-graph-weight-range">0,0 - <span id="bmi-underweight-max">18,4</span></span>
+<div class="calculator-line-graph-ideal-weight-indicator underweight">
+<span id="bmi-number-max-underweight">54,0</span> <span class="bmi-number-weight-unit">kg</span>
+</div>
 
 
 

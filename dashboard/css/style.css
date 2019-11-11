@@ -13,6 +13,7 @@
   /* Gecko Browsers */
   color: #fff;
 }
+
 html {
   font-size: 14px;
 }
@@ -37,6 +38,7 @@ html {
 ****************************/
 body {
   font-size: 1em;
+  background: #eeeeee;
 }
 a {
   color: #37a6c4;

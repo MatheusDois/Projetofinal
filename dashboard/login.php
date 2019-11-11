@@ -16,8 +16,8 @@ if(isset($_POST['login']))
 	{
 		$_SESSION['alogin']=$_POST['username'];
 		$_SESSION['id']=$results[0]->id;
-		$_SESSION['tipo']=$results[0]->tipo;
-		echo "<script type='text/javascript'> document.location = 'index.php'; </script>";
+		$_SESSION['tipo'] =$results[0]->tipo;
+		header('Location: ./index.php');
 	}else{
 		$sql1 ="SELECT id,email,password FROM tb_clientes WHERE email=:email and password=password(:password)";
 		$query1= $dbh -> prepare($sql1);
@@ -29,7 +29,7 @@ if(isset($_POST['login']))
 			$_SESSION['alogin']=$_POST['username'];
 			$_SESSION['id']=$results1[0]->id;
 			$_SESSION['tipo']=2;
-			echo "<script type='text/javascript'> document.location = 'perfil.php'; </script>";
+			header('Location: ./perfil.php');
 		}else{
 			echo "<script>alert('Email ou senha incorretos!');</script>";
 		}
@@ -57,23 +57,42 @@ if(isset($_POST['login']))
 	<link rel="stylesheet" href="css/fileinput.min.css">
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+	
+	body {
+		background: #ffffff url(https://images.wallpaperscraft.com/image/crossfit_back_girl_120978_1920x1080.jpg) no-repeat;
+		background-size: cover;
+	}
 
+	.box{
+		background: rgba(0,0,0,.5);
+		padding: 0;
+		border-radius: 15px;
+		color: #fff;
+	}
+
+	.logo{
+		position: absolute;
+		top: -5%;
+		left: 3%;
+		height: 200px;
+	}
+	</style>
 </head>
 
 <body>
 	<a href="../index.html" class="logo"><img src="imagens/minueto.png"
-alt=”sometext” width="120" height="100" class="logo"></a>
+alt=”sometext”  class="logo"></a>
 
-	<div class="login-page bk-img">
+	<div class="login-page bk-img mt-5x">
 		<div class="form-content">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
-						<h1 class="text-center text-bold mt-4x">ÁREA DE LOGIN</h1>
-						<div class="well row pt-2x pb-3x bk-light">
+					<div class="col-md-6 col-md-offset-3 box">
+						<h1 class="text-center text-bold mt-2x">ÁREA DE LOGIN</h1>
+						<div class="row pt-2x">
 							<div class="col-md-8 col-md-offset-2">
 								<form method="post">
-
 									<label for="" class="text-uppercase text-sm">Email</label>
 									<input type="text" placeholder="Insira seu email" name="username" class="form-control mb" required>
 

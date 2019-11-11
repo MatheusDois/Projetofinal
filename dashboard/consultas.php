@@ -1,8 +1,11 @@
 <?php session_start();
- include_once  'includes/header.inc.php'; ?>
-<?php include_once  'includes/menu.inc.php' ;
-if ($_SESSION['tipo']!=1 and $_SESSION['tipo']!=0){
-	header("Location:login.php");}
+ include_once  'includes/header.inc.php'; 
+ include_once  'includes/menu.inc.php' ;
+
+
+ if ($_SESSION['tipo']!=1 and $_SESSION['tipo']!=0){
+	header("Location:login.php");
+}
 ?>
 
 <meta charset="UTF-8">
@@ -30,4 +33,16 @@ if ($_SESSION['tipo']!=1 and $_SESSION['tipo']!=0){
 		</table>
 	</div>
 </div>
+
+<button >Try it</button>
+
+
+<script>
+function myFunction(id) {
+  var txt;
+  if (confirm("Deseja Deletar o registro?")) {
+    window.location.href = "./bancodedados/delete.php?id="+id
+  }
+}
+</script>
 <?php include_once  'includes/footer.inc.php' ?>

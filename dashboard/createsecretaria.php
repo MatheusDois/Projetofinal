@@ -9,7 +9,7 @@ if(isset($_POST))
 	$nome=$_POST['nome'];
 	$email=$_POST['email'];
 	$password=$_POST['password'];
-	$statement->execute(array($nome,$email,$password,0));
+	$statement->execute(array($nome,$email,$password,2));
 	header("Location:index.php");
 }
 
