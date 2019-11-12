@@ -34,7 +34,6 @@
 	</div>
 </div>
 
-<button >Try it</button>
 
 
 <script>

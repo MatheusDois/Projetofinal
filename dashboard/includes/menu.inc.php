@@ -1,9 +1,3 @@
-<?php
-	if ($_SESSION['tipo'] != 0) {
-		$_SESSION['tipo'] = 1;
-	}
- 	
-?>
 
 <nav class="blue-grey">
 	<div class="nav-wrapper container">

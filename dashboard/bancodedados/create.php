@@ -1,6 +1,5 @@
 <?php
 session_start();
-error_reporting(1);
 include_once 'conexao.php';
 
 $nome     = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
@@ -30,3 +29,4 @@ while($emails = $querySelect->fetch_assoc()):
             header ("Location:../");
         endif;
     endif;
+?>

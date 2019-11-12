@@ -91,7 +91,7 @@ else{
 				<?php
 				if(isset($_SESSION['msg'])):
 					echo $_SESSION['msg'];
-					session_unset();
+					unset($_SESSION['msg']);
 				endif;
 				?>
 
