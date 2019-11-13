@@ -92,40 +92,7 @@ margin-top: 7px;
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="./../css/perfil.css">
 
-<img src="./imagens/minueto.png" style="position: absolute;top: -70px;left: 10px;width: 200px;z-index:0;">
-<nav class="sidenav">
-    
-    <ul class="main-buttons">
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-        <div class="align-test">
-            <span class="pt-3"> Perfil </span>
-         </div>
-        <ul class="hidden">
-          <li><a href="./mudarsenhaperfil.php">Alterar senha</a></li>
-          <li><a href="./alterardados.php">Alterar Dados</a></li>
-          <li><a href="./perfil.php">Perfil</a></li>
-          <li><a href="./logout.php">Sair</a></li>
-          
-        </ul>
-      </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-        <div class="align-test">
-            Vídeo Aulas
-        </div>
-        <ul class="hidden">
-          <li><a href="./musculacao.php">Musculação</a></li>
-          <li><a href="./crossfit.php">Crossfit</a></li>
-          <li><a href="./pilates.php">Pilates</a></li>
-          <li><a href="./jump.php">Jump</a></li>
-          <li><a href="./spinning.php">Spinning</a></li>
-          
-        </ul>
-      </li>
-     
-    </ul>
-</nav>
+<?php include_once  'includes/menuperfil.php' ?>
 
 <div class="divider"></div>
 <div id="content" class="text-center">

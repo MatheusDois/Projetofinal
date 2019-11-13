@@ -12,7 +12,7 @@
 						<li><a href="perfil.php">Perfil</a></li>
 					<?php }?>
 					<li><a href="change-password.php">Mudar Senha</a></li>
-					<li><a href="logout.php">Logout</a></li>
+					<li><a href="logout.php">Sair</a></li>
 				</ul>
 			</div>
 		</nav>

@@ -25,51 +25,7 @@ else{
 		$ENDERECO = $registros ['ENDERECO'];
 	endwhile;?>
 
-<nav class="sidenav">
-    <ul class="main-buttons">
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-        Perfil
-        <ul class="hidden">
-          <li><a href="./mudarsenhaperfil.php">Alterar senha</a></li>
-          <li><a href="./alterardados.php">Alterar Dados</a></li>
-          <li><a href="./perfil.php">Perfil</a></li>
-          <li><a href="./logout.php">Sair</a></li>
-          
-        </ul>
-      </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-        Vídeo Aulas
-        <ul class="hidden">
-          <li><a href="./musculacao.php">Musculação</a></li>
-          <li><a href="./crossfit.php">Crossfit</a></li>
-          <li><a href="./pilates.php">Pilates</a></li>
-          <li><a href="./jump.php">Jump</a></li>
-          <li><a href="./spinning.php">Spinning</a></li>
-          
-        </ul>
-      </li>
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-        Cálculo IMC
-        <ul class="hidden">
-          <li><a href="./imc.php">Musculação</a></li>
-        
-          
-        </ul>
-      </li>
-
-      <li>
-        <i class="fa fa-circle fa-2x"></i>
-        LOCALIZAÇÃO
-        <ul class="hidden">
-          <li><a href="./mapa.php">Acessar mapa</a></li>
-     
-        </ul>
-      </li>
-    </ul>
-</nav>
+<?php include_once  'includes/menuperfil.php' ?>
 
 <div class="divider"></div>
 <div id="content" class="text-center">

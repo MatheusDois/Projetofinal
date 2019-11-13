@@ -155,6 +155,8 @@ else{
 			</div>
 
 		</form>
+
+		
 		
 		<?php include_once  'includes/footer.inc.php'; 
 	} ?>

@@ -31,20 +31,17 @@ else{
 		$personal = $registros ['personal'];
 		$ENDERECO = $registros ['ENDERECO'];
     endwhile;?>
-  
-  <?php include_once  'includes/menuperfil.php' ?>
+
+<?php include_once  'includes/menuperfil.php' ?>
 
 <div class="container-new">
 
-<div class="yz-widget" data-calculator-type="bmi" data-language="pt" data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#517600" data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF" data-secondary-color="#517600"><span class="yz-copyright">Powered by <a href="https://www.yazio.com/pt/calculadora-imc">YAZIO</a></span></div>
+<div class="yz-widget" data-calculator-type="daily_need" data-language="pt" data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#517600" data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF" data-secondary-color="#517600"><span class="yz-copyright">Powered by <a href="https://www.yazio.com/pt/calculadora-calorias-diarias">YAZIO</a></span></div>
 <script src="https://widget.yazio.com/calculator.js" async></script>
 
 </div>
 
-
-
-    <?php 
+<?php 
 include_once 'includes/footer.inc.php';
 
 } ?>
-    
