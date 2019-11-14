@@ -22,6 +22,8 @@ SET time_zone = "+00:00";
 -- Banco de dados: `cadastro`
 --
 
+CREATE DATABASE cadastro;
+
 -- --------------------------------------------------------
 
 --
