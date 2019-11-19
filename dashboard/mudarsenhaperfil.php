@@ -171,7 +171,7 @@ else{
           <p>
 
           <!-- campo nome -->
-           <input type="password" name="password2"  id="newpass" maxlength="40" class="w-100 mt-1" placeholder="Senha pretendida" required>
+           <input type="password" name="password2"  id="newpass" maxlength="40" class="w-100 mt-1" placeholder="Senha pretendida" required oninput="verificasenha();">
           <p>
           <p class="msg">
 		 		<?php
@@ -182,13 +182,40 @@ else{
 				 ?>
 		  </p>
 
+      <p id="text"></p>
+
             <input type="submit" value="Alterar"  id="send" class="btn btn-success mt-3 mr-5">
             <a href="perfil.php" class="btn btn-secondary mt-3">Cancelar</a>
+            <p class="msg text-success">
+		 		<?php
+						if (isset($_SESSION["msgPass2"])) {
+							echo $_SESSION["msgPass2"];
+							unset($_SESSION["msgPass2"]);
+						}
+				 ?>
+		  </p>
           </fieldset>
 
       </form>
+
   </div>
 </div>
+<script>
+        document.getElementById('send').disabled = true;
+        function verificasenha() {
+            let pass = document.getElementById('mypass').value;
+            let confpass = document.getElementById('newpass').value;
+            let Element =document.querySelector('#text');
+
+            if (pass !== "" && confpass !== "") {
+                if (pass !== confpass) {
+                    Element.innerHTML = "As senhas devem ser iguais";
+                }else{
+                    Element.innerHTML = ""
+                    document.getElementById('send').disabled = false;
+                }
+            }        
+        }
 </script>
 
 		<?php 

@@ -14,7 +14,9 @@
  }
 
  
-
+.main{
+	margin-left:  22%;
+}
 </style>
 
 <?php
@@ -45,16 +47,16 @@ else{
 <br>
 <br>
 <br>
- 
+ <div class="main">
 <center><h1>Vídeo Aulas sobre: Musculação!</h1></center>
 <center><h3>Não conseguiu ir para a academia por algum motivo? Não tenha desculpas para não malhar!<h3></center>
- <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/E2dnI48VbHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- &nbsp; <iframe width="560" height="315" src="https://www.youtube.com/embed/Qkdg6GFsxx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+ <center> <iframe width="500" height="360" src="https://www.youtube.com/embed/E2dnI48VbHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ &nbsp; <iframe width="500" height="360" src="https://www.youtube.com/embed/Qkdg6GFsxx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
     <center><h3>Dicas essenciais para o treino de passada, confira!<h3></center>
- <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/GuhUjVehnWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- &nbsp; <iframe width="560" height="315" src="https://www.youtube.com/embed/2Q-JhMBz4wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
- 
+ <center> <iframe width="500" height="360" src="https://www.youtube.com/embed/GuhUjVehnWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ &nbsp; <iframe width="500" height="360" src="https://www.youtube.com/embed/2Q-JhMBz4wY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+	</div>
 
 <?php 
 include_once 'includes/footer.inc.php';

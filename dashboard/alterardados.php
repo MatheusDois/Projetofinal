@@ -52,9 +52,14 @@ else{
 }
 
 input#left{
-    width: 100%;
+    width: 98%;
+    float: left;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+label, input{
+    display: flex;
 }
 
 
@@ -76,6 +81,12 @@ label{
 
  .align-test{
 margin-top: 7px;
+ }
+
+ .mybtn{
+     position: absolute;
+     top: 50%;
+     left: 72%;
  }
 
  * {
@@ -103,8 +114,8 @@ margin-top: 7px;
 
 <form action="bancodedados/update.php" method="post" class="text-left">
 <div class="row container">
-            <div class="col-5 ml-4 mr-3 pt-3 pb-3 box border-right border-dark">
-                <h3>Dados Pessoais:</h3>
+            <div class="col-6 ml-4 mr-3 pt-3 pb-3 box border-right border-dark">
+                <h3 class="w-100">Dados Pessoais:</h3>
 				<div class="row ml-1 " style="margin-top: 0">
 				<label for="nome" class="mt-3"> 
                         Aluno: <br> 
@@ -113,7 +124,7 @@ margin-top: 7px;
 
 				<label for="telefone" class="ml-4 mt-3">
                         Telefone: <br> 
-					<input type="number" name="telefone"  value="<?php echo $telefone?>" id="left" maxlength="14" placeholder="Seu telefone">
+					<input type="text" name="telefone"  value="<?php echo $telefone?>" id="left" maxlength="14" placeholder="Seu telefone" style="float: left;">
 					</label>
 
 					<label>
@@ -130,20 +141,20 @@ margin-top: 7px;
                         <div class="col  mt-3">
                             <label>
                                 Plano: 
-					<input type="text" name="plano" id="plano"  readonly="true" value="<?php echo $plano?>" maxlength="50" class="w-100 rounded mt-2" style="border: none;">
+					<input type="text" name="plano" id="plano"  readonly="true" " value="<?php echo $plano?>" maxlength="50" class=" rounded mt-2" style="border: none;width: 90.5px;">
 					</label>
 					</div>
 
 					<div class="col  mt-3">
                             <label>
                                 Personal: 
-					<input type="text" name="personal" readonly="true" value="<?php echo $personal?>" class="w-100 rounded mt-2" style="border: none;" maxlength="50">
+					<input type="text" name="personal" readonly="true" value="<?php echo $personal?>" class=" rounded mt-2" style="border: none;" maxlength="50" style="border: none;width: 90.5px;">
 </label>
 </div>
 </div>
 </div>
 
-<div class="text-right mr-5" style="margin-top: 140px">
+<div class="text-right mr-5 mybtn" style="margin-top: 140px">
 					<input type="submit" value="Alterar" class="btn btn-success ml-3">
 					<input type="reset" value="Cancelar" class="btn btn-secondary">
 </div>

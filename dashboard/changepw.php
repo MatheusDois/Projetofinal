@@ -64,10 +64,10 @@ if(isset($_POST))
 	$msg="Your Password succesfully changed";
 
 
-
+	$_SESSION["msgPass2"] = "Senha alterada com sucesso";
 
 	echo"<script>alert('Senha alterada com sucesso!')</script>";
-	//header('Location: perfil.php');
+	header('Location: ./mudarsenhaperfil.php');
 }
 else {
 	echo"<script>alert('Ocurreu algum erro!')</script>";}
