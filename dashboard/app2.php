@@ -31,7 +31,7 @@ body {
 
  #centralizar { 
 	 text-align: center;
-	 margin-right: 600px;
+	 margin-left: 21%;
 	 
  }
 </style>

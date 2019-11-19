@@ -102,7 +102,7 @@ html, body {
   align-items: center;
 }
 
-#nome{
+#mypass, #newpass{
   border: none;
   border-bottom: 1px solid rgba(0,0,0,0.7);
   background: transparent;
@@ -166,17 +166,30 @@ else{
           <h3>Alterar senha</h3>
           <div style="margin-top: -10px;"></div>
           <!-- campo nome -->
-           <b> Insira a senha que deseja: </b><br>
-           <input type="password" name="password"  id="nome" maxlength="40" class="w-100 mt-1" placeholder="Senha pretendida" required>
+          <b> Insira a senha que deseja: </b><br>
+           <input type="password" name="password"  id="mypass" maxlength="40" class="w-100 mt-1" placeholder="Senha Ataual" required>
           <p>
 
+          <!-- campo nome -->
+           <input type="password" name="password2"  id="newpass" maxlength="40" class="w-100 mt-1" placeholder="Senha pretendida" required>
+          <p>
+          <p class="msg">
+		 		<?php
+						if (isset($_SESSION["msgPass"])) {
+							echo $_SESSION["msgPass"];
+							unset($_SESSION["msgPass"]);
+						}
+				 ?>
+		  </p>
 
-            <input type="submit" value="Alterar" class="btn btn-success mt-3 mr-5">
+            <input type="submit" value="Alterar"  id="send" class="btn btn-success mt-3 mr-5">
             <a href="perfil.php" class="btn btn-secondary mt-3">Cancelar</a>
           </fieldset>
+
       </form>
   </div>
 </div>
+</script>
 
 		<?php 
 		  include_once 'includes/footer.inc.php';

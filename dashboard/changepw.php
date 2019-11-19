@@ -42,6 +42,17 @@ if(isset($_POST))
 {
 	$password=($_POST['password']);
 	if ($_SESSION['tipo']==1 or $_SESSION['tipo']==0){
+
+		$conn = mysqli_connect('localhost', 'root', '', 'users');
+		$query = "select password from users";
+		$result = mysqli_query( $conn, $query);
+
+		while ($registro = mysqli_fetch_array($result)) {
+			$senha =  $registro['password'];
+		}
+
+		echo "<p>$senha</p>";
+
 		$con="update users set password=password( :password ) where id=".$_SESSION['id'];
 	}
 	elseif($_SESSION['tipo']==2){
@@ -56,7 +67,7 @@ if(isset($_POST))
 
 
 	echo"<script>alert('Senha alterada com sucesso!')</script>";
-	header('Location: perfil.php');
+	//header('Location: perfil.php');
 }
 else {
 	echo"<script>alert('Ocurreu algum erro!')</script>";}
