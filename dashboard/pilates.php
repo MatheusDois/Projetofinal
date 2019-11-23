@@ -12,6 +12,12 @@
     text-align: center;
     
  }
+
+ .main{
+	margin-left:  22%;
+}
+
+
 </style>
 
 <?php
@@ -43,27 +49,28 @@ else{
 <br>
 <br>
 <br>
-
+<div class="main">
 <center><h1>Dicas sobre:Pilates!</h1></center>
 <center><h3>Emagrecimento e melhora de postura!<h3></center>
  <center> 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/aAWYyU8povw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/aAWYyU8povw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
  
  &nbsp;
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/hKXPbJm39Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="500" height="360" src="https://www.youtube.com/embed/hKXPbJm39Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
  </center>
 
 
     <center><h3>Melhore a sua coluna com essas dicas!<h3></center>
  <center>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/TF2Ky4hUJwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/TF2Ky4hUJwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   &nbsp; 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kpCU5S65c6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="500" height="360" src="https://www.youtube.com/embed/kpCU5S65c6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
    </center>
+   <div>
  
 
 <?php 

@@ -12,6 +12,11 @@
     text-align: center;
     
  }
+
+ .main{
+	margin-left:  22%;
+}
+
 </style>
 
 <?php
@@ -43,26 +48,27 @@ else{
 <br>
 <br>
 <br>
-
+<div class="main">
 <center><h1>Dicas sobre:Spinning!</h1></center>
 <center><h3>Emagrecimento e posicionamento correto!<h3></center>
  <center> 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/uhqGxNbWTkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/uhqGxNbWTkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
   &nbsp;
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/BujmXMDvYS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="500" height="360" src="https://www.youtube.com/embed/BujmXMDvYS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
    </center>
 
 
  <center><h3>Benefícios e dicas!<h3></center>
  <center>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/M2lTYVsIY1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/M2lTYVsIY1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   &nbsp; 
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4JWh1hXlzyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+  <iframe width="500" height="360" src="https://www.youtube.com/embed/4JWh1hXlzyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
    </center>
+   </div>
  
 
 <?php 

@@ -12,6 +12,12 @@
     text-align: center;
     
  }
+
+ .main{
+	margin-left:  22%;
+}
+
+
 </style>
 
 <?php
@@ -43,26 +49,27 @@ else{
 <br>
 <br>
 <br>
-
+<div class="main">
 <center><h1>Dicas sobre:Jump!</h1></center>
 <center><h3>Vantagens e como fazer em casa!<h3></center>
  <center> 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/jORr86VYMfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/jORr86VYMfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
  &nbsp;
   
- <iframe width="560" height="315" src="https://www.youtube.com/embed/BCQGWIzShFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/BCQGWIzShFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
  </center>
 
 
  <center><h3>Dicas para movimento Tesoura e Corrida.<h3></center>
  <center>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/xbCUYHF2hLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+ <iframe width="500" height="360" src="https://www.youtube.com/embed/xbCUYHF2hLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   
   &nbsp; 
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/oUZOU9BhwHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+  <iframe width="500" height="360" src="https://www.youtube.com/embed/oUZOU9BhwHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   
    </center>
+   </div>
  
 
 <?php 

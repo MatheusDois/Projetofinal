@@ -12,6 +12,12 @@
     text-align: center;
     
  }
+
+ .main{
+	margin-left:  22%;
+}
+
+
 </style>
 
 <?php
@@ -43,16 +49,16 @@ else{
 <br>
 <br>
 <br>
-
+<div class="main">
 <center><h1>Dicas cruciais para: Crossfit!</h1></center>
 <center><h3>Quer melhorar a eficiência com exercícios básicos? Confira! <h3></center>
- <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/5Dut3q8lGUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- &nbsp; <<iframe width="560" height="315" src="https://www.youtube.com/embed/0fZqPnUZ8M4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+ <center> <iframe width="500" height="360" src="https://www.youtube.com/embed/5Dut3q8lGUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ &nbsp; <<iframe width="500" height="360" src="https://www.youtube.com/embed/0fZqPnUZ8M4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
     <center><h3>Dicas dadas por um campeão de Crossfit, além de dicas de alimentação!<h3></center>
- <center> <<iframe width="560" height="315" src="https://www.youtube.com/embed/pLYZCaFjIrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
- &nbsp; <iframe width="560" height="315" src="https://www.youtube.com/embed/6ym68AwBfXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
- 
+ <center> <<iframe width="500" height="360" src="https://www.youtube.com/embed/pLYZCaFjIrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ &nbsp; <iframe width="500" height="360" src="https://www.youtube.com/embed/6ym68AwBfXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+ </div>
 
 <?php 
 include_once 'includes/footer.inc.php';
