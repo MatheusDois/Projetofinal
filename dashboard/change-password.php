@@ -24,11 +24,7 @@ include_once 'bancodedados/conexao2.php';
 			<h5 class="light center" style="font-size: 23pt;">Alterar senha</h5>
 
 			<!-- campo nome -->
-			<div class="input-field col s12">
-				<i class="material-icons prefix">lock</i>
-				<input type="password" name="password"  id="nome" maxlength="40" placeholder="Senha pretendida" required>
-
-			</div>			
+				
 			
 			<!-- campo nome -->
 			<div class="input-field col s12">

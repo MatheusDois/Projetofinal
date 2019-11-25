@@ -167,11 +167,11 @@ else{
           <div style="margin-top: -10px;"></div>
           <!-- campo nome -->
           <b> Insira a senha que deseja: </b><br>
-           <input type="password" name="password"  id="mypass" maxlength="40" class="w-100 mt-1" placeholder="Senha Ataual" required>
+           <input type="password" name="password"  id="mypass" maxlength="40" class="w-100 mt-1" placeholder="Senha Pretendida" required>
           <p>
 
           <!-- campo nome -->
-           <input type="password" name="password2"  id="newpass" maxlength="40" class="w-100 mt-1" placeholder="Senha pretendida" required oninput="verificasenha();">
+           <input type="password" name="password2"  id="newpass" maxlength="40" class="w-100 mt-1" placeholder="Confirmar Senha" required oninput="verificasenha();">
           <p>
           <p class="msg">
 		 		<?php
